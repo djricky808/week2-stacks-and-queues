@@ -34,3 +34,5 @@
 // console.log(queue.front()); // 20
 // console.log(queue.size()); // 2
 // console.log(queue.isEmpty()); // false
+
+console.log("TSX Test");
