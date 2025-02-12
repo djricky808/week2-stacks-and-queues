@@ -3,7 +3,20 @@
 // - Look into the private keyword. Make sure we can initialize a queue of any input type.
 // - Initialize the queue in the constructor. Remember, we may need to utilize other data structures here to create the behavior we are looking for.
 
-class Queue {}
+class Queue {
+  private q;
+
+  constructor(line: string) {
+    this.q = line;
+  }
+
+  getQ() {
+    return this.q;
+  }
+}
+
+const one = new Queue("abcde");
+console.log(one);
 
 // Step 2: Implement enqueue method
 // - Create a method to add an element to the queue.
