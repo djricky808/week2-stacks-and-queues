@@ -4,7 +4,7 @@
 // - Initialize the queue in the constructor. Remember, we may need to utilize other data structures here to create the behavior we are looking for.
 
 class Queue {
-  private q;
+  private q: any;
 
   constructor(line: string) {
     this.q = line;
